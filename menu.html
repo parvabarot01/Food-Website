@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie / menu</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/a54d2cbf95.js" crossorigin="anonymous"></script>
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <a href="./index.html" class="logo"> <i class="fas fa-utensils"></i> Foodiee </a>
+
+        <nav class="navbar">
+            <a href="./index.html">home</a>
+            <a href="./menu.html">menu</a>
+            <a href="./signUp.html">sign up</a>
+            <a href="./login.html">login</a>
+            <a href="./aboutUs.html">about us</a>
+        </nav>
+
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+
+    </header>
+
+    <!-- header section ends  -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <span>welcome TO Foodies</span>
+            <h3> Enjoy our Exotic Recipes 😋</h3>
+            <p>Here, you will be able to find the Recipe of your Favourite Food. Prepare your favourite food with our
+                simple and easy Recipe steps</p>
+        </div>
+
+        <div class="image">
+            <img src="image/home-img.png" alt="" class="home-img">
+            <img src="image/home-parallax-img.png" alt="" class="home-parallax-img">
+        </div>
+
+    </section>
+
+    <!-- home section ends  -->
+
+    <!-- category section starts  -->
+
+    <section class="category">
+
+        <a href="#tab-Pancake" class="box">
+            <img src="image/menu_pancake.jpg" alt="">
+            <h3>Pancakes</h3>
+        </a>
+
+        <a href="#tab-Pasta" class="box">
+            <img src="image/menu_pasta.jpg" alt="">
+            <h3>Pasta</h3>
+        </a>
+
+        <a href="#tab-Pizza" class="box">
+            <img src="image/menu_pizza.png" alt="">
+            <h3>Pizza</h3>
+        </a>
+
+        <a href="#tab-Milkshake" class="box">
+            <img src="image/menu_milkshake.jpg" alt="">
+            <h3>Milk Shakes</h3>
+        </a>
+
+        <a href="#tab-Cake" class="box">
+            <img src="image/menu_cake.jpg" alt="">
+            <h3>Cake</h3>
+        </a>
+
+        <a href="#tab-Salad" class="box">
+            <img src="image/menu_salad.jpg" alt="">
+            <h3>Salad</h3>
+        </a>
+
+    </section>
+
+    <a href="#" class="to-top">
+        <i class="fas fa-arrow-circle-up"></i>
+    </a>
+
+    <!-- category section ends -->
+
+    <!-- Pancakes Section -->
+    <div class="heading">
+        <span>Pancakes Recipe</span>
+    </div>
+
+    <section class="about" id="tab-Pancake">
+
+        <div class="image">
+            <img src="image/pancake_1.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <span>Normal Pancake</span>
+            <h3 class="title">Recipe</h3>
+            <p>1.) Mix flour, milk, egg, butter, sugar, baking powder, and salt together.</p>
+            <p>2.) Heat a lightly oiled griddle over low heat. Scoop 1/4 cup batter and cook until dry edges.</p>
+            <p>3.) Flip and cook until lightly browned. Repeat with remaining batter.</p>
+        </div>
+
+        <div class="image">
+            <img src="image/pancake_2.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <span>Chocolate Pancake</span>
+            <h3 class="title">Recipe</h3>
+            <p>1.) Mix dry and wet ingredients separately. Combine and add chocolate chips.</p>
+            <p>2.) Cook on griddle 2-3 minutes each side.</p>
+        </div>
+
+    </section>
+
+    <!-- Pasta Section -->
+    <div class="heading">
+        <span>Pastas Recipe</span>
+    </div>
+
+    <section class="about" id="tab-Pasta">
+
+        <div class="image"><img src="image/pasta_1.jpg" alt=""></div>
+        <div class="content">
+            <span>Mac and Cheese</span>
+            <h3 class="title">Recipe</h3>
+            <p>Boil milk, add pasta, then stir in cheddar until melted.</p>
+        </div>
+
+        <div class="image"><img src="image/pasta_2.jpg" alt=""></div>
+        <div class="content">
+            <span>Red Sauce Pasta</span>
+            <h3 class="title">Recipe</h3>
+            <p>Boil pasta. Sauté onion and garlic, add puree and mix well.</p>
+        </div>
+
+        <div class="image"><img src="image/pasta_3.jpg" alt=""></div>
+        <div class="content">
+            <span>Pesto Pasta</span>
+            <h3 class="title">Recipe</h3>
+            <p>Cook pasta, sauté pesto mixture, stir and serve with cheese.</p>
+        </div>
+
+    </section>
+
+    <!-- Repeat similarly for Pizza, Milkshake, Cake, and Salad sections -->
+    <!-- Place their IDs (tab-Pizza, tab-Milkshake, etc.) in <section> -->
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
